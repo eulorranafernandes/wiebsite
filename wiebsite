@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE WIE UFC - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte Google Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <!-- Header / Nav -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo-wie.png" alt="IEEE WIE UFC Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#quem-somos">QUEM SOMOS</a></li>
+                <li><a href="#menu1">MENU</a></li>
+                <li><a href="#menu2">MENU</a></li>
+                <li><a href="#menu3">MENU</a></li>
+                <li><a href="#menu4">MENU</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="tagline">IEEE WOMEN IN ENGINEERING - UFC</span>
+            <h1>Mulheres que transformam a engenharia</h1>
+            <p>O IEEE WIE UFC é uma comunidade dedicada à valorização das mulheres na engenharia, ciência e tecnologia — um espaço de conexão real, aprendizado e crescimento profissional.</p>
+            
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">Conheça o WIE UFC</a>
+                <a href="#" class="btn btn-secondary">Quero Participar</a>
+                <a href="#" class="btn btn-outline">Acompanhe nossas redes sociais</a>
+            </div>
+
+            <div class="hero-logos">
+                <img src="logo-ieee-ufc.png" alt="IEEE Student Branch UFC">
+                <img src="logo-ufc.png" alt="Universidade Federal do Ceará">
+            </div>
+        </div>
+        
+        <div class="hero-image">
+            <img src="foto-grupo.jpg" alt="Foto do grupo WIE UFC">
+        </div>
+    </section>
+
+    <!-- Quem Somos -->
+    <section id="quem-somos" class="about">
+        <div class="about-image">
+            <img src="ilustracao-mulheres.png" alt="Ilustração de mulheres de mãos dadas">
+        </div>
+        <div class="about-content">
+            <span class="section-label">QUEM SOMOS</span>
+            <h2>Um grupo de afinidade para impulsionar mulheres na Engenharia</h2>
+            <p>Parte da maior organização profissional técnica do mundo, o IEEE WIE UFC atua com foco na promoção do papel feminino nas engenharias, ciência e tecnologia. Atuamos com eventos, projetos e formação em liderança para que nenhuma mulher precise percorrer esse caminho sozinha.</p>
+        </div>
+    </section>
+
+    <!-- O Que Fazemos -->
+    <section class="cards-section">
+        <span class="section-label">NOSSA ATUAÇÃO</span>
+        <h2 class="section-title">O que fazemos?</h2>
+        
+        <div class="cards-grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="card-conexao.jpg" alt="Conexão">
+                </div>
+                <div class="card-body">
+                    <span class="badge">CONEXÃO</span>
+                    <h3>Eventos que conectam</h3>
+                    <p>Palestras, workshops e encontros que aproximam estudantes, professores e referências da engenharia.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="card-inovacao.jpg" alt="Inovação">
+                </div>
+                <div class="card-body">
+                    <span class="badge">INOVAÇÃO</span>
+                    <h3>Projetos que transformam</h3>
+                    <p>Iniciativas de impacto que colocam nossas membras na linha de frente da inovação — da ideia ao protótipo.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="card-lideranca.jpg" alt="Liderança">
+                </div>
+                <div class="card-body">
+                    <span class="badge">LIDERANÇA</span>
+                    <h3>Gestão para ir além</h3>
+                    <p>Formação em gestão, soft skills e visão estratégica para preparar nossas membras para papéis de destaque.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Faça Parte -->
+    <section class="cta-section">
+        <span class="section-label-alt">FAÇA PARTE</span>
+        <h2>A engenharia é mais forte quando construída juntas</h2>
+        <p>Se você é mulher na engenharia — estudante ou profissional — este é o seu lugar. Venha fazer parte de uma rede que apoia, inspira e transforma.</p>
+        <a href="#" class="btn btn-white">Ver como Participar</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <img src="logo-footer.png" alt="IEEE WIE UFC Logo" class="footer-logo">
+            <p>© 2026 IEEE WIE UFC</p>
+        </div>
+    </footer>
+
+</body>
+</html>
